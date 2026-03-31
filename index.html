@@ -1,62 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Noctade - Developer & Creator</title>
-        <meta content="Noctade's website" property="og:title" />
-        <meta content="A passionate developer and creator | noctade.xyz" property="og:description" />
-        <meta content="https://noctade.xyz" property="og:url" />
-        <meta content="https://noctade.xyz/resources/mypfp.png" property="og:image" />
-        <meta content="#9100C1" data-react-helmet="true" name="theme-color" />
-    </head>
-    <body>
-        <div class="container">
-            <!-- Header -->
-            <header class="header">
-                <div class="header-content">
-                    <img src="resources/mypfp.jpg" alt="Profile" class="pfp">
-                    <h1>Noctade</h1>
-                    <p class="tagline">Twitch streamer • Content creator • Developer</p>
-                </div>
-            </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noctade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-            <!-- Main Content -->
-            <main class="main-content">
-                <!-- About Section -->
-                <section class="card">
-                    <h2>About Me</h2>
-                    <p>Hi, I'm Noctade. A passionate 17 year old developer who has been writing C# code for several years. As a side hobby, I play and stream VALORANT on my Twitch channel! You can check out any way to connect with me right below!</p>
-                </section>
+<body>
 
-                <!-- Quick Links -->
-                <section class="links-section">
-                    <div class="card">
-                        <h2>Connect</h2>
-                        <div class="links">
-                            <a href="https://github.com/noctade" class="link-btn">GitHub</a>
-                            <a href="https://twitter.com/noctadelive" class="link-btn">Twitter</a>
-                            <a href="https://twitch.tv/noctade" class="link-btn">Twitch</a>
-                            <a href="https://discord.gg/zAnZMX9P5D" class="link-btn">Discord</a>
-                        </div>
-                    </div>
-                </section>
+    <header class="navbar">
+            <div class="nav-left">
+                <img src="res/avatar.png" class="avatar">
+                <span class="site-title">Noctade’s web house</span>
+            </div>
 
-                <!-- Status -->
-                <section class="card status-card">
-                    <h2>Status</h2>
-                    <p>🚀 Currently working on new exciting projects!</p>
-                    <p class="small">Now on <strong>noctade.xyz</strong>!</p>
-                </section>
+            <nav class="nav-right">
+                <a href="#">Home</a>
+                <a href="#">Downloads</a>
+                <a href="#">Blog</a>
+            </nav>
+    </header>
 
-                <center><iframe src="https://discord.com/widget?id=1118240794093043892&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></center>
-            </main>
+    <section class="hero">
+            <h1>Noctade</h1>
+            <p>Twitch streamer, programmer</p>
+    </section>
 
-            <!-- Footer -->
-            <footer class="footer">
-                <p>&copy; 2026 Noctade. All rights reserved.</p>
-            </footer>
+    <section class="projects">
+
+        <h2>My projects</h2>
+
+        <div class="project-card">
+
+            <div class="project-text">
+                <h3>ExplorerCSharp</h3>
+
+                <p>
+                A Windows Explorer recreation in C#. Complete with File & Folder
+                management, less resource usage and a simpler design than the
+                original File Explorer.
+                </p>
+
+                <p class="source">Source code: &lt;not available yet&gt;</p>
+            </div>
+
+            <img src="res/explorer.png" class="project-image">
+
         </div>
-    </body>
+
+    </section>
+
+</body>
 </html>
